@@ -1,6 +1,6 @@
 context:
   name: supabase-auth
-  version: "2.12.3"
+  version: "2.19.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/supabase_auth/supabase_auth-${{ version }}.tar.gz
-  sha256: 8d3b67543f3b27f5adbfe46b66990424c8504c6b08c1141ec572a9802761edc2
+  sha256: 38fd110e493d8b6575d864ebac3975d084326d4fcf4ed39a378838799f0462d3
 
 build:
   number: 0
@@ -29,7 +29,7 @@ requirements:
 tests:
   - python:
       imports:
-      - supabase_auth
+        - supabase_auth
       pip_check: true
       python_version: ${{ python_min }}.*
 
