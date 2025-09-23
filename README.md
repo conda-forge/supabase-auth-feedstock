@@ -3,13 +3,13 @@ About supabase-auth-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/supabase-auth-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/supabase/auth-py
+Home: https://github.com/supabase/supabase-py/tree/main/src/auth
 
 Package license: MIT
 
 Summary: Python client implementation for Supabase Auth
 
-Development: https://github.com/supabase/auth-py
+Development: https://github.com/supabase/supabase-py/tree/main/src/auth
 
 Current build status
 ====================
