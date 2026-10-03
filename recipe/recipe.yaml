@@ -1,6 +1,6 @@
 context:
   name: supabase-auth
-  version: "2.31.0"
+  version: "2.32.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/supabase_auth/supabase_auth-${{ version }}.tar.gz
-  sha256: 0945b33fa96239c76dc8eaf96d7d2c94991950d24b4cfe4a5c2da9aa5e909663
+  sha256: c68ea37b7bc61292b1d85390315c5c62756253fc9ab5613108b86f7534c72cf0
 
 build:
   number: 0
